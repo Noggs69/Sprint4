@@ -95,6 +95,7 @@ La aplicación no guarda nada en ficheros. Cada fila de la lista es una fila de 
 La captura de las tablas se guarda en `imatges/e2-base-dades.png`.
 
 ## E3. Configuración de la conexión
+![E3 . Configuración de la conexión](imatges/e3-configuracio.png)
 
 La plantilla pública es `conf/config.example.php`. En el servidor se copia a `config.php` y ahí se pone la contraseña. Esta tabla no incluye el secreto.
 
