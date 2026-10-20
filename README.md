@@ -109,9 +109,9 @@ La plantilla pública es `conf/config.example.php`. En el servidor se copia a `c
 `localhost` encaja porque PHP y MySQL están en la misma máquina. El tráfico no sale de la instancia y no hace falta abrir el puerto de MySQL en el grupo de seguridad.
 
 ## E4. CRUD verificado
-
+## ANTES
 ![E4a · Antes](imatges/e4a-abans.png)
-
+## DESPUÉS
 ![E4b · Después](imatges/e4b-despres.png)
 
 La prueba consiste en crear o editar una persona desde el formulario y volver a abrir el listado, o a consultar `users` desde el cliente MySQL. Si el cambio aparece en los dos sitios, PHP no solo ha pintado una página: ha escrito en la base de datos y una lectura posterior lo confirma.
